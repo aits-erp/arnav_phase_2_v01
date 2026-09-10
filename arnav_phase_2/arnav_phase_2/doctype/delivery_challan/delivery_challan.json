@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2026-09-10 14:34:48.479619",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "from_address",
+  "dc_no",
+  "challan_type",
+  "gst_type",
+  "column_break_gvfu",
+  "to_address",
+  "date",
+  "note",
+  "section_break_aoog",
+  "challan_details",
+  "section_break_rgf4",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rgf4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Delivery Challan",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "from_address",
+   "fieldtype": "Small Text",
+   "label": "From address"
+  },
+  {
+   "fieldname": "dc_no",
+   "fieldtype": "Data",
+   "label": "DC No."
+  },
+  {
+   "fieldname": "challan_type",
+   "fieldtype": "Select",
+   "label": "Challan Type",
+   "options": "\nApproval\nDelivery\nReturn"
+  },
+  {
+   "fieldname": "gst_type",
+   "fieldtype": "Select",
+   "label": "GST Type",
+   "options": "\nSGST\nIGST"
+  },
+  {
+   "fieldname": "column_break_gvfu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_address",
+   "fieldtype": "Small Text",
+   "label": "To address"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "section_break_aoog",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "challan_details",
+   "fieldtype": "Table",
+   "label": "Challan Details",
+   "options": "Challan details"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-09-10 15:24:15.632268",
+ "modified_by": "Administrator",
+ "module": "Arnav Phase 2",
+ "name": "Delivery Challan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
