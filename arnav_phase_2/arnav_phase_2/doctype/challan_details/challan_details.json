@@ -16,7 +16,7 @@
  "fields": [
   {
    "fieldname": "product_name",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "label": "Product Name",
    "options": "Item"
   },

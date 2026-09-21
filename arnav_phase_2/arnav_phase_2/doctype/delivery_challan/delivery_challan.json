@@ -42,7 +42,9 @@
   {
    "fieldname": "dc_no",
    "fieldtype": "Data",
-   "label": "DC No."
+   "label": "DC No.",
+   "read_only": 1
+
   },
   {
    "fieldname": "challan_type",
